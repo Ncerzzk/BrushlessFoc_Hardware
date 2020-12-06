@@ -1,0 +1,51 @@
+
+Benjem      MY
+
+Current Measure
+
+PB0(Currrent C)     PC1
+PB1(Current A)      PC2
+
+Voltage Measure
+PC2                 PC0
+
+The Res of Voltage Measuring
+39K                 100K
+2k2                 10K
+
+The Gain of The OP of Current Measuring
+40(edited by myself)      50
+
+The Res of Current Measuring
+3mR       3mR
+
+The equation of Current Measuring
+Vo = Vref - G*V_shunt
+so,
+V_shunt = (Vref-Vo)/G         V_shunt = (Vo-Vref)/G (ina181)
+
+DC_Cal
+Have            None
+
+EN_GATE
+Have            None
+
+Encoder(SPI)
+soft SPI            hard SPI
+PA4         Nss         PB6
+PA5         Sck         PB3
+PA6         MISO        PB4
+PA7         MOSI        PB5
+
+Timer
+PA8         H3          PA10
+PA9         H2          PA9
+PA10        H1          PA8
+
+PB13        L3          PB15
+PB14        L2          PB14
+PB15        L1          PB13
+
+LED
+PC4         LED_GREEN   PC9
+PC5         LED_RED     NONE

@@ -1,0 +1,11 @@
+/History
+/__Previews
+/mybrushless
+/HALL_Source
+
+!*.PcbDoc
+!*.PrjPcb
+!*.SchDoc
+!*.md
+!*.txt
+
