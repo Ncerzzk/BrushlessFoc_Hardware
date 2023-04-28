@@ -1,0 +1,23 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|Field=Value~String~Value~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~brushless_foc.PrjPCB|ReportField=ProjectFullPath~D:\OneDrive\Personal_Projects\无感无刷\brushless_foc.PrjPCB|ReportField=Title~Bill of Materials For Project [brushless_foc.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~80|ReportField=ReportTime~13:19:02|ReportField=ReportDate~2021/1/28|ReportField=ReportDateTime~2021/1/28 13:19:02|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2021/1/28|ReportField=CurrentTime~0:50:52|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\OneDrive\Personal_Projects\无感无刷\H_Bridge.SchDoc|ReportField=DocumentName~H_Bridge.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2021/1/28|ReportField=Organization~|ReportField=ProjectName~brushless_foc.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~brushless_foc.PrjPCB|ReportField=DataSourceFullPath~D:\OneDrive\Personal_Projects\无感无刷\brushless_foc.PrjPCB|ReportField=PCBConfigurationName~Default Configuration|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|ButtonTACT_3x4x2_180|Button|S1|ButtonTACT_3x4x2_180H|ButtonTACT_3x4x2_180|1|
+2|DFN_MOS||Q1, Q2, Q3, Q4, Q5, Q6|DFN3X3X8|DFN_MOS|6|
+3|Diode|Diode|D1|LED_0805_RED|Diode|1|
+4|D_0805||D2, D3, D4, D5, D6, D7|LED_0805_YELLOW|D_0805|6|
+5|FD6288||FD1|TSSOP_E170_P0.65_20|FD6288|1|
+6|HDR1x2_2.54|Header|P1|HDR1X2_2.54_180|HDR1x2_2.54|1|
+7|HDR1x4_2.54|Header|P4|HDR1X4_2.54_90|HDR1x4_2.54|1|
+8|HDR1x4_2.54|Header|P5|1.25X4_SMT|HDR1x4_2.54|1|
+9|HDR1x6_2.54|Header|P2|1.25mm_1X6_SMT|HDR1x6_2.54T|1|
+10|Header 2|Header, 2-Pin|P6|power|Header 2|1|
+11|INA181||U1, U2|SOT23-6|INA181|2|
+12|MP2451||MP1|SOT23-6|MP2451|1|
+13|RT9193|Power|RT1|SOT23-5|RT9193|1|
+14|STM32F4|MCU|STM1|LQFP_P0.5_64|STM32F405R|1|
+15|TJA1050||U3|SOP_E150_8|TJA1050|1|
+16|*μF|电解电容|C13, C29|CAP-ELE-PIN150/DIA320|CAP-ELE|2|*μF
+17|Res1|Resistor|R12, R14|RES-1206|Res1|2|0.001R
+18|Cap_0603|Capacitor|C1, C2, C5, C6, C7, C8, C9, C10, C11, C12, C14, C15, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C28, C33|CAP_0603|Cap_0603|25|0.1u, 33pF, 1u, 0.1u, 22n, 0.1u, 0.1u, 0.1u, 0.1u, 0.1u, 0.1u, 0.1u, 0.1u, 0.1u, 0.1u, 0.1u, 20pf, 20pf, 0.1u, 0.1u, 0.1u, 0.1u, 0.1u, 0.1u, 0.1u
+19|XTAL_5032_2P|Crystal Oscillator|XT1|XT_5032_2|XTAL_5032_2P|1|8M
+20|Cap_0805|Capacitor|C3, C4, C27|CAP_0805|Cap_0805|3|10u
+21|Ind_CD32|Inductor|L1|IND_CD52|Ind_CD32|1|10uH
+22|Res_0603|Resistor|R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R13, R16, R18, R19, R21, R22, R32, R33, R120|RES_0603|Res_0603|20|20K, 10K, 19K, 100K, 0R, 10R, 10R, 10R, 10R, 10R, 10R, 10K, 0R, 10K, 10K, 100K, 10K, 10K, 10K, 120R

@@ -1,0 +1,9 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [brushless_foc.PrjPCB]
+
+
+Files Generated   : 0
+Documents Printed : 0
+
+Finished Output Generation At 16:22:44 On 2021/3/15

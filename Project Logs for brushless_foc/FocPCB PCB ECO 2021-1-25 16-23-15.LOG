@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=PGND Pin=P1-1
+Removed Pin From Net: NetName=SLAVE_CSN Pin=P1-2
+Removed Pin From Net: NetName=SLAVE_MOSI Pin=P1-3
+Removed Pin From Net: NetName=SLAVE_MISO Pin=P1-4
+Removed Pin From Net: NetName=SLAVE_SCK Pin=P1-5
+Removed Pin From Net: NetName=5V Pin=P1-6
+Change Component Footprint: Designator=P1 Old Footprint=1.25mm_1X6_SMT New Footprint=HDR1X2_2.54_180
+Change Component Comment : Designator=P1 Old Comment=HDR1x6_2.54 New Comment=HDR1x2_2.54
+Added Component: Designator=C33(CAP_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1u"; VariantName = "[No Variations]"
+Added Component: Designator=U3(SOP_E150_8)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=5V Pin=C33-1
+Added Pin To Net: NetName=GND Pin=C33-2
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Pin To Net: NetName=5V Pin=U3-3
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=CAN_H Pin=P1-1
+Added Pin To Net: NetName=CAN_H Pin=U3-7
+Added Net: Name=CAN_H
+Added Pin To Net: NetName=CAN_L Pin=P1-2
+Added Pin To Net: NetName=CAN_L Pin=U3-6
+Added Net: Name=CAN_L
+Added Pin To Net: NetName=CAN_RX Pin=U3-4
+Added Net: Name=CAN_RX
+Added Pin To Net: NetName=CAN_TX Pin=U3-1
+Added Net: Name=CAN_TX
+Change Class Name : Old Net Name=Sheet1 New Net Name=Power
+Change Class Name : Old Net Name=Sheet2 New Net Name=MCU
+Added Member To Class: ClassName=MCU Member=Component C33 Cap_0603
+Added Member To Class: ClassName=MCU Member=Component U3 TJA1050

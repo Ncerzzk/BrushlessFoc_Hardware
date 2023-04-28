@@ -1,0 +1,6 @@
+Added Component: Designator=R120(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "120R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAN_H Pin=R120-1
+Added Pin To Net: NetName=CAN_L Pin=R120-2
+Added Member To Class: ClassName=MCU Member=Component R120 Res_0603

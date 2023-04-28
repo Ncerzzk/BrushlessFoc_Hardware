@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=* Old Footprint=DFN3X3-8_DD New Footprint=DFN3X3X8
+Added Pin To Net: NetName=A Pin=*-1
+Added Pin To Net: NetName=A Pin=*-2
+Added Pin To Net: NetName=A Pin=*-3
+Added Pin To Net: NetName=Net*_4 Pin=*-4
+Added Pin To Net: NetName=VIN Pin=*-5
+Added Pin To Net: NetName=VIN Pin=*-5
+Added Pin To Net: NetName=VIN Pin=*-6
+Added Pin To Net: NetName=VIN Pin=*-7
+Added Pin To Net: NetName=VIN Pin=*-8

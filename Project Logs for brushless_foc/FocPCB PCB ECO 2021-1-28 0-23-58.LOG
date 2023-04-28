@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=A Pin=Q5-1
+Removed Pin From Net: NetName=A Pin=Q5-2
+Removed Pin From Net: NetName=A Pin=Q5-3
+Removed Pin From Net: NetName=VIN Pin=Q5-5
+Removed Pin From Net: NetName=VIN Pin=Q5-6
+Removed Pin From Net: NetName=VIN Pin=Q5-7
+Removed Pin From Net: NetName=VIN Pin=Q5-8
+Removed Member From Class: ClassName=H_Bridge Member=Q5
+Added Component: Designator=*(DFN3X3-8_DD)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Net*_4 Pin=R8-1
+Added Net: Name=Net*_4
+Added Member To Class: ClassName=H_Bridge Member=Component * DFN_MOS
